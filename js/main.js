@@ -1,6 +1,11 @@
+
+let input = prompt("Input a number:");
+let number = +input;
+
+
 for (let i = 0; i <= 20; i++) {
-    console.log(`${i} X 5 = tomar boyos ${i * 5} bosor `);
-    let res = i * 5;
+    console.log(`${i} X ${number} = tomar boyos ${i * number} bosor `);
+    let res = i * number;
     if (res < 20 && res >= 0) {
         console.log("Tumi biye Korte parbe na;");
     } else if (res >= 20 && res <= 45) {
